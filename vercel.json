@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/:token",
+      "destination": "https://api.mjsportal.xyz/scan/parent/:token",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "destination": "https://api.mjsportal.xyz",
+      "permanent": true
+    }
+  ]
+}
